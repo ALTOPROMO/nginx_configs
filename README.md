@@ -8,7 +8,7 @@ nginx_configs/
 │   ├── ps_off.conf     # Выключение - include nginx_configs/pagespeed/ps_off.conf
 │   └── ps_on.conf      # Включение - include nginx_configs/pagespeed/ps_on.conf
 ├── php/                # Конфиги с php для apache2 и для php-fpm
-│   ├── php.conf        # Включение apache_php
-│   └── php-fpm.conf    # Включение php-fpm
+│   ├── php.conf        # Включение apache_php - include nginx_configs/php/php.conf
+│   └── php-fpm.conf    # Включение php-fpm - include nginx_configs/php/php-fpm.conf
 └── local.conf          # Необходим кофиг для работы с сжатием и статикой
 ```
